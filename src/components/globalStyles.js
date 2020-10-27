@@ -9,24 +9,17 @@ const GlobalStyle = createGlobalStyle`
       }
 `;
 
-// export const Container = styled.div`
-//   z-index: 1;
-//   width: 100%;
-//   max-width: 1300px;
-//   margin-right: auto;
-//   margin-left: auto;
-//   padding-right: 50px;
-//   padding-left: 50px;
-//
-//   @media (max-width: 991px) {
-//     padding-right: 30px;
-//     padding-left: 30px;
-//   }
-// `;
-
 export const Span = styled.span`
   padding: 10px;
   margin: 5px;
+`;
+
+export const A = styled.a`
+  text-decoration: none;
+  :hover {
+    color: green;
+    cursor: pointer;
+  }
 `;
 
 export default GlobalStyle;
