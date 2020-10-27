@@ -1,11 +1,12 @@
 import React from "react";
-import { Span } from "../reusable-styled-components";
+import Burger from "./Burger";
 import { Nav } from "./Navbar.elements";
 
 const Navbar = () => {
   return (
     <Nav>
-      <Span>Navbar </Span>
+      <div className="logo">Logo</div>
+      <Burger />
     </Nav>
   );
 };
