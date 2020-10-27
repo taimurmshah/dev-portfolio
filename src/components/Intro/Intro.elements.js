@@ -7,7 +7,14 @@ export const Container = styled.div`
   margin-top: 5vh;
 `;
 
-export const Tags = styled.div`
+export const Row = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row-start;
+`;
+
+export const SmallText = styled.div`
   font-size: 20px;
   margin-bottom: 10px;
 `;
